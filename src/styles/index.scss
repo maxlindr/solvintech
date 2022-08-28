@@ -1,0 +1,60 @@
+@import './fonts';
+@import './variables';
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: 'TRY Clother', 'Arial', -apple-system, BlinkMacSystemFont, 'Segoe UI','Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-black);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul, ol, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 0;
+	appearance: none;
+	border: none;
+	background: transparent;
+  box-shadow: none;
+  outline: none;
+
+  cursor: pointer;
+
+  &:disabled {
+    cursor: default;
+  }
+}
+
+.visually-hidden {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
