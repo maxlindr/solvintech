@@ -1,0 +1,21 @@
+.root {
+  position: relative;
+  padding: 7px 20px;
+  background-color: var(--color-black);
+  min-height: 70px;
+}
+
+.logo {
+  display: block;
+
+  path {
+    fill: white;
+  }
+}
+
+.openBtn {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
