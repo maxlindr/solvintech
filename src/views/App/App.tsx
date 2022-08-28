@@ -1,3 +1,4 @@
+import { Footer } from '../../components/Footer/Footer';
 import { Header } from '../../components/Header';
 import styles from './App.module.scss';
 
@@ -12,6 +13,7 @@ export const App = () => {
       <main className={styles.main}>
         <h1 className="visually-hidden">Тестовое задание</h1>
       </main>
+      <Footer />
     </div>
   );
 };
