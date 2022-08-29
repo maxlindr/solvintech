@@ -1,5 +1,6 @@
 import { Footer } from '../../components/Footer/Footer';
 import { Header } from '../../components/Header';
+import { Showcase } from '../Showcase';
 import styles from './App.module.scss';
 
 export const App = () => {
@@ -11,7 +12,7 @@ export const App = () => {
     <div className={styles.app}>
       <Header onToggle={handleHeaderToggle} />
       <main className={styles.main}>
-        <h1 className="visually-hidden">Тестовое задание</h1>
+        <Showcase />
       </main>
       <Footer />
     </div>
