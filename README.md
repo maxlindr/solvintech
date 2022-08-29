@@ -1,7 +1,5 @@
 # Тестовое задание на вакансию React верстальщика
 
-[Демо](https://www.seccode.maxello.pro/)
-
 ## `npm start`
 
 Runs the app in the development mode.<br />
